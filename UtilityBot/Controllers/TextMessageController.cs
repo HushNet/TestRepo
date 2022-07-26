@@ -29,7 +29,7 @@ public class TextMessageController
                 operationButtons.Add(new[]
                 {
                     InlineKeyboardButton.WithCallbackData("Количество символов", "countChars"),
-                    InlineKeyboardButton.WithCallbackData("Сумма чисел БЛА БЛА", "countNums")
+                    InlineKeyboardButton.WithCallbackData("Сумма чисел", "countNums")
                 });
 
                 await _telegramBotClient.SendTextMessageAsync(message.Chat.Id,
