@@ -28,7 +28,7 @@ static AppSettings BuildAppSettings()
     return new AppSettings()
     {
         BotToken = "5542652336:AAEK2_PAG3XzWyLodC1WYI5TrywezoOrdaY",
-        DownloadsFolder = @"C:\Users\Alexey\Desktop\RiderProjects\VoiceTexterBot\DownloadedFiles",
+        DownloadsFolder = @"/root/botgit/VTB_Utilites/DownloadedFiles",
         AudioFileName = "audio",
         InputAudioFormat = "ogg",
         OutputAudioFormat = "wav",
