@@ -11,7 +11,7 @@ public class DirectoryExtension
     public static string GetSolutionRoot()
     {
         var dir = Path.GetDirectoryName(Directory.GetCurrentDirectory());
-        
-        return Directory.GetParent(dir)?.FullName;
+
+        return dir;
     }
 }
