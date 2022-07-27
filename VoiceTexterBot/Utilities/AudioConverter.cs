@@ -8,7 +8,7 @@ public class AudioConverter
     public static void TryConvert(string inputFile, string outputFile) 
     {
         // Задаём путь, где лежит вспомогательная программа - конвертер
-        GlobalFFOptions.Configure(options => options.BinaryFolder = Path.Combine(DirectoryExtension.GetSolutionRoot(), "ffmpeg-win64", "bin"));
+        GlobalFFOptions.Configure(options => options.BinaryFolder = Path.Combine(DirectoryExtension.GetSolutionRoot(), "FFmpeg-win64", "bin"));
 
         // Вызываем Ffmpeg, передав требуемые аргументы.
         FFMpegArguments
