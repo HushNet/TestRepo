@@ -28,7 +28,7 @@ static AppSettings BuildAppSettings()
     return new AppSettings()
     {
         BotToken = "5542652336:AAEK2_PAG3XzWyLodC1WYI5TrywezoOrdaY",
-        DownloadsFolder = @"/root/botgit/VTB_Utilites/DownloadedFiles",
+        DownloadsFolder = @"/root/botgit/VTB/DownloadedFiles",
         AudioFileName = "audio",
         InputAudioFormat = "ogg",
         OutputAudioFormat = "wav",
